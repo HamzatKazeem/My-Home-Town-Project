@@ -1,0 +1,156 @@
+body {
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  background-color: #466365;
+  font-size: 30px;
+  padding: 0;
+}
+
+#bg-image {
+  background-image: url("./Images/Sheffield.png");
+  background-size: cover;
+  padding: 0;
+  margin:0;
+  height: 380px;
+}
+
+h1 {
+  font-size: 50px;
+  text-shadow: 0px 0px 4px 0px black;
+}
+
+#underln {
+  border-bottom: 4px solid white;
+}
+
+#text-below-bgimage{
+  height: 35px;
+  background-color: black;
+  padding: 0;
+}
+
+.middle-banner{ 
+display: flex;
+
+
+}
+
+.middle-banner-size-video{ 
+  border: 0px solid white ;
+  margin-top: 0;
+  padding:0;
+  border-radius: 20px;
+  }
+
+
+.event-in-sheffield{
+  border: 0.5px dotted white ;
+  background-size: cover;
+  border-radius: 20px;
+  margin: 8px;
+
+}
+.container {
+  position: relative;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: none;
+ 
+}
+
+.responsive-iframe{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 0%;
+
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: -5px -5px 4px black;
+  margin: 0;
+}
+  
+h3{
+  margin:0;
+  font-size: 20px;
+  color: yellow;
+}
+
+.img-middlebanner-image{
+  
+  height: 160px;
+
+}
+
+
+#experience{
+  margin-top: 15px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+width: 255px;
+  height: 180px;
+  color: #466365;
+    background-image: url("./Images/Outdoor.jpg");
+    background-size: cover;
+
+  
+}
+
+#footer{
+  display: flex;
+  padding: 20px 0 0 20px;
+  height: 50px;
+  font-size: 20px;
+  border: 0px solid white ;
+  background-color: #222222;
+  color: lightblue;
+  margin:0;
+
+}
+.newsletter-sub{
+  height: 30px;
+  font-size: 20px;
+margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 0.5px solid #222222;
+  border-radius: 24px;
+}
+
+.footer-image{
+  width: 30px;
+      height: 30px;
+}
+#btn{
+  font-size: 20px;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 0.5px solid #222222;
+  border-radius: 24px;
+}
+
+.social-medial-handle{
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  }
+  
