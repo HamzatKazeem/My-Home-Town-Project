@@ -1,10 +1,13 @@
+html, body {width: 100vw; height: 100vh;}
+div {width: 100%; height: 100%}
+
 body {
   color: #ffffff;
   margin: 0;
   text-align: center;
   font-family: "Orbitron", sans-serif;
   background-color: #466365;
-  font-size: 30px;
+  font-size: 15px;
   padding: 0;
 }
 
@@ -13,7 +16,7 @@ body {
   background-size: cover;
   padding: 0;
   margin:0;
-  height: 380px;
+  height: 350px;
 }
 
 h1 {
@@ -26,19 +29,24 @@ h1 {
 }
 
 #text-below-bgimage{
-  height: 35px;
+  height: 40px;
   background-color: black;
-  padding: 0;
+  padding: 2px 0 0 0;
+  margin:0;
 }
 
 .middle-banner{ 
-display: flex;
 
+display: flex;
+justify-content:center;
+margin:0;
+height: auto;
+background-size: cover;
 
 }
 
 .middle-banner-size-video{ 
-  border: 0px solid white ;
+  border: 0.1px solid white ;
   margin-top: 0;
   padding:0;
   border-radius: 20px;
@@ -46,12 +54,119 @@ display: flex;
 
 
 .event-in-sheffield{
-  border: 0.5px dotted white ;
-  background-size: cover;
-  border-radius: 20px;
-  margin: 8px;
+  width: 300px;
+  border: 0px dotted white ;
+  border-radius: 5px;
+  padding: 0 0 0 0px;
+  margin: 0;
+ }
 
+
+h2 {
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: -5px -5px 4px black;
+  margin: 0;
+  padding: 0;
 }
+  
+h3{
+  margin:0;
+  font-size: 20px;
+  color: yellow;
+}
+
+.img-middlebanner-image{
+  width: 300px;  
+  height: 150px;
+  padding: 0;
+  margin:0;
+  background-size: cover;
+}
+
+#experience{
+  margin-top:0;
+  width: 300px;
+  height: 200px;
+  
+}
+
+  
+  p{
+    font-size: 15px;
+    padding: 10px 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: beige;
+    margin: 0;
+    text-align: justify;
+  }
+  #header{
+    color: white;
+    text-decoration:dashed;
+  }
+
+  .footer-dim{
+    display: flex;
+    padding-top: 10px;
+    height: 35px;
+    font-size: 20px;
+    border: 0px solid white ;
+    background-color: #222222;
+    color: lightblue;
+    margin:0;
+  
+  }
+  
+ 
+  #btn-dim{
+    
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+    margin-right: 0 0 0 2px;
+    padding: 2px;
+    border: 0px solid #222222;
+    border-radius: 20px;
+    background: lightgray;
+    color: black;
+  }
+  
+  .newsletter-sub{
+    width: 250px;
+    height: 25px;
+    font-size: 15px;
+    margin:0;
+    padding: 10px;
+    border: 0px solid white;
+    border-radius: 24px;
+    margin-right: 30px;
+  }
+
+  #social-medial-handle{
+    width: 250px;
+    height: auto;
+    justify-content:space-between;
+    padding-left: 10px;
+    margin: 0;
+    border: 0px solid white;
+    }
+    .social-medial-image{
+      text-align: right;
+      width: 30px;
+      height: 25px;
+      padding: 0 20px 0 20px;
+      margin: 0;
+      }
+
+form{
+  border: 0px solid white;
+  padding: 0 20px 0 20px;
+text-align: centre;
+margin:0;
+height: auto;
+width: 900px;
+}
+
 .container {
   position: relative;
   height: auto;
@@ -74,83 +189,3 @@ display: flex;
   padding: 0%;
 
 }
-
-h2 {
-  font-weight: bold;
-  font-size: 20px;
-  text-shadow: -5px -5px 4px black;
-  margin: 0;
-}
-  
-h3{
-  margin:0;
-  font-size: 20px;
-  color: yellow;
-}
-
-.img-middlebanner-image{
-  
-  height: 160px;
-
-}
-
-
-#experience{
-  margin-top: 15px;
-  margin-bottom: 0;
-  padding-bottom: 0;
-width: 255px;
-  height: 180px;
-  color: #466365;
-    background-image: url("./Images/Outdoor.jpg");
-    background-size: cover;
-
-  
-}
-
-#footer{
-  display: flex;
-  padding: 20px 0 0 20px;
-  height: 50px;
-  font-size: 20px;
-  border: 0px solid white ;
-  background-color: #222222;
-  color: lightblue;
-  margin:0;
-
-}
-.newsletter-sub{
-  height: 30px;
-  font-size: 20px;
-margin: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  border: 0.5px solid #222222;
-  border-radius: 24px;
-}
-
-.footer-image{
-  width: 30px;
-      height: 30px;
-}
-#btn{
-  font-size: 20px;
-  margin: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  border: 0.5px solid #222222;
-  border-radius: 24px;
-}
-
-.social-medial-handle{
-  justify-content: space-between;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  }
-  
