@@ -13,7 +13,6 @@ body {
 
 #bg-image {
   background-image: url("./Images/Sheffield.png");
-  width:1320px; 
   background-size: cover;
   padding: 0;
   margin:0;
@@ -37,6 +36,7 @@ h1 {
 }
 
 #middle-frame{ 
+  background-image: url("./Images/Outdoor.jpg");
   text-align: center;
   width:580px;  
   height: 300px;
@@ -70,7 +70,7 @@ background-size: cover;
 
 
 .event-in-sheffield{
-  width: 300px;
+  width: 250px;
   border: 0px dotted white ;
   border-radius: 5px;
   padding: 0 0 0 0px;
@@ -93,7 +93,7 @@ h3{
 }
 
 .img-middlebanner-image{
-  width: 300px;  
+  width: 200px;  
   height: 150px;
   padding: 0;
   margin:0;
