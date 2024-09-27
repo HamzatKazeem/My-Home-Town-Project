@@ -35,6 +35,21 @@ h1 {
   margin:0;
 }
 
+#middle-frame{ 
+  text-align: center;
+  width:580px;  
+  height: 300px;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content:center;
+  border: 2px solid white;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  margin-top: 2px;
+  }
+  
+
 .middle-banner{ 
 
 display: flex;
