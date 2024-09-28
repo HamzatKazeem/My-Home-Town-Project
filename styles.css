@@ -46,9 +46,49 @@ h1 {
   justify-content:center;
   border: 0.5px solid white;
   border-radius: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   margin-top: 2px;
   }
+
+  .middle-slider{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    height: 500px;
+
+  }
+
+  .middle-slider img { 
+    display: flex;
+    width:580px;  
+    height: 400px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1.5px solid white;
+    border-radius: 12px;
+    margin-bottom: 10px;
+ 
+    }
+
+    #btn-align{
+      display: flex;
+      justify-content: center;
+      gap: 390px;
+      margin-bottom: 5px;
+      margin-top: 3px;
+    }
+
+    .btn-slider{
+      height: 35px;
+      width: 90px;
+      font-size: 15px;
+      margin-right: 0 0 0 2px;
+      padding: 2px;
+      border: 0px solid #222222;
+      border-radius: 8px;
+      background: lightgray;
+      color: black;
+    }
   
 
 .middle-banner{ 
@@ -58,6 +98,8 @@ justify-content:center;
 margin:0;
 height: auto;
 background-size: cover;
+margin-bottom: 5px;
+margin-top: 3px;
 
 }
 
